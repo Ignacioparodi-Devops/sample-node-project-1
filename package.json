@@ -4,7 +4,7 @@
   "description": "Sample Node.js Project",
   "main": "app.js",
   "scripts": {
-    "start": "set port=3005 && node app.js",
+    "start": "node app.js",
     "test": "echo \"OK: \""
   },
   "dependencies" : {
