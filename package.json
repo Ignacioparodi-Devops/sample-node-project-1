@@ -7,6 +7,9 @@
     "start": "node app.js",
     "test": "echo \"OK: \""
   },
+  "dependencies" : {
+    "express": "npm install express --save"
+  },
   "author": "Homero simpson",
   "license": "ISC"
 }
