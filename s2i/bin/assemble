@@ -65,7 +65,7 @@ fi
 
 # Set the DEV_MODE to false by default.
 if [ -z "$DEV_MODE" ]; then
-  export DEV_MODE=false
+  export DEV_MODE=true
 fi
 
 # If NODE_ENV is not set by the user, then NODE_ENV is determined by whether
@@ -82,7 +82,8 @@ if [ "$NODE_ENV" != "production" ]; then
 
 	echo "---> Building your Node application from source"
 	npm install
-
+	echo "---> Install Monitor"
+	npm install appdynamics@4.5.23
 else
 
 	echo "---> Installing all dependencies"
