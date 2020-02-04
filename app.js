@@ -23,15 +23,3 @@ HTTP SERVER OLUŞTURULDU
 http.createServer(app).listen(app.get('port'), function(){
 	console.log('Sistem ' + app.get('port') + ' Portu Üzerinde Çalışıyor.');
 });
-
-require("appdynamics").profile({
-  controllerHostName: '<direccion de la controladora>’, 
-  controllerPort: 9080, 
-  controllerSslEnabled: true, // Set to true if controllerPort is SSL 
-  accountName: ‘customer1’, 
-  accountAccessKey: '<llave de acceso a appdynamics>’, 
-//required 
- applicationName: ‘<Openshift Project Name>’, 
- tierName: ‘<Openshift Project Application Name>’, 
- nodeName: ‘Instance-’ 
-});
