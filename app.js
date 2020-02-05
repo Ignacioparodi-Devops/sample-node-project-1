@@ -25,7 +25,7 @@ require("appdynamics").profile({
 //required 
  applicationName: ‘devo-devops-dev’, 
  tierName: ‘<Openshift Project Application Name>’, 
- nodeName: ‘v10.15.3’ 
+ nodeName: ‘10.15.3’ 
 });
 
 /*
