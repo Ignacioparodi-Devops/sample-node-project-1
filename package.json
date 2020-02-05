@@ -9,7 +9,8 @@
   },
   "dependencies" : {
     "express": "latest"
+    "appdynamics": "latest"
   },
-  "author": "Homero simpson",
+  "author": "Nacho",
   "license": "ISC"
 }
