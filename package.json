@@ -9,7 +9,6 @@
   },
   "dependencies" : {
     "express": "latest"
-    "appdynamics": "latest"
   },
   "author": "Nacho",
   "license": "ISC"
